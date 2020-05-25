@@ -1,0 +1,10 @@
+#story{
+    background-color: #F5EBE7;
+}
+h2.title-about{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+}

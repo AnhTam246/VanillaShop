@@ -1,0 +1,51 @@
+
+h2.big-title{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.wrap-news{
+    background-image: url("../images/news/nenbantin.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100%;
+}
+.container-news{
+    background: rgba(255, 255, 255, 0.9);
+}
+.title-news{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 25px;
+    letter-spacing: .62px;
+    font-weight: 500;
+    color: tomato;
+    font-family: 'Amatic SC', cursive;
+    font-size: 180%;
+    font-weight: bolder;
+}
+h3.title-news-detail{
+    color: rgb(69, 120, 181) ;
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+}
+.post-item-title a{
+    color: black;
+    
+}
+.pagination{
+    margin-left: 40%;
+    margin-top: 20px;
+}
+.pagination li a{
+    padding: 10px 10px;
+    display: inline-block;
+    color: tomato;
+    background: none;
+    border: none;
+}

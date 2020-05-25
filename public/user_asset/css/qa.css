@@ -1,0 +1,21 @@
+.card-header{
+    background-color: #F5EBE7;
+    
+}
+.card-header a{
+    color: brown;
+}
+h2.title-qa{
+    text-align: center;
+    margin-top: 1rem;
+    font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    font-weight: bolder;
+}
+.title-section-qa{
+    font-size: 3em;
+    text-align: center;
+    color: tomato;
+    font-family: 'Amatic SC', cursive;
+
+}

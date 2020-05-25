@@ -1,0 +1,152 @@
+body {
+    background: #f4f4f4 !important;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.cart-col-1 > .row.title {
+    padding-bottom: 10px;
+    padding-top: 10px;
+    border-top: none;
+    border-bottom: 1px solid #e1e1e1;
+    margin: 0;
+}
+
+.cart-index {
+    font-size: 16px;
+}
+
+.title h6 {
+    line-height: 20px;
+    font-size: 12px;
+    color: #888;
+    margin: 10px 0 0;
+}
+
+.shopping-cart-item {
+    border-bottom: 1px solid #e1e1e1;
+    margin: 0;
+}
+
+img.img-product-cart {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.vanilla-cart .wrap .name a {
+    color: #000;
+}
+
+.vanilla-cart .wrap .name {
+    font-size: 14px;
+    margin-bottom: 5px;
+}
+
+.policyProduct {
+    height: 20px;
+}
+
+.policyProduct img {
+    margin-right: 5px;
+}
+
+.vanilla-cart .wrap .action .btn-link {
+    border: 0;
+    color: #2c6fb0;
+    font-size: 13px;
+    margin-right: 12px;
+    position: relative;
+    padding: 0;
+    text-transform: none;
+    line-height: normal;
+}
+
+.text-pink {
+    color: rgb(255, 125, 125) !important;
+}
+
+.price-number {
+    border: none;
+}
+
+.vanilla-cart .wrap .price {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-weight: 700;
+    padding-top: 0;
+}
+
+.control-qty {
+    display: flex;
+}
+
+.btn-number {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.input-qty {
+    width: 30px;
+}
+
+.total-price {
+    border-top: 2px solid gray;
+    border-bottom: 1px solid #e1e1e1;
+}
+
+.text-total {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.total {
+    color: #F00;
+}
+
+.total-number-price {
+    border: none;
+    color: #F00;
+    font-weight: bold;
+}
+
+a.btn-cart {
+    padding: 10px 40px;
+    color: white;
+    border: 1px solid rgb(255, 105, 105);
+    border-radius: 5px;
+    display: inline-block;
+    background-color: rgb(255, 125, 125);
+}
+
+a.btn-cart:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.min-input {
+    display: inline-block;
+    float: left;
+    width: calc(100% - 70px);
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+
+.information-more {
+    min-height: 125px;
+}
+
+@media (max-width: 426px) {
+    img.img-product-cart {
+        padding: 5px;
+    }
+
+    .btn-style-add {
+        font-size: 14px;
+        width: 140px;
+    }
+}
